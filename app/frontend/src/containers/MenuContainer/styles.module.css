@@ -1,0 +1,12 @@
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	list-style-type: none;
+}
+
+.displayMenuItem {
+	width: 32%;
+	float: left;
+	margin-bottom: 2rem;
+	margin-right: 1%;
+}

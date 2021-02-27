@@ -1,7 +1,9 @@
 const menuJSON = {
-	menu: {
+	items: {
 		beef: [
 			{
+				icon:
+					'https://d1nqx6es26drid.cloudfront.net/app/uploads/2015/04/04043525/product-double-cheeseburger.png',
 				name: 'Double Cheese Burger',
 				price: 4.5,
 			},

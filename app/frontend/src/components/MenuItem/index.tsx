@@ -5,15 +5,15 @@ type MenuItemProps = { icon?: string; name: string; price: number };
 function MenuItem({ icon, name, price }: MenuItemProps) {
 	return (
 		<>
-			<div>
+			<div className={styles.menuItem}>
 				{icon ? (
-					<div>
-						<img src={icon} alt='Icon' className={styles.icon} />
+					<div className={styles.icon}>
+						<img src={icon} alt='Icon' className={styles.iconImage} />
 					</div>
 				) : null}
-				<div>
+				<div className={styles.description}>
 					<p>{name}</p>
-					<h3>{price}</h3>
+					<h4>{price}</h4>
 				</div>
 			</div>
 		</>
